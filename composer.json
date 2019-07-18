@@ -13,6 +13,8 @@
     "php": ">=7.0"
   },
   "autoload": {
-    "CasparOne\\CheckBrackets\\": "src/"
+    "psr-4": {
+      "CasparOne\\CheckBrackets\\": "src/"
+    }
   }
 }
